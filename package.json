@@ -1,0 +1,32 @@
+{
+  "name": "destroyable",
+  "version": "0.1.0",
+  "author": {
+    "name": "Daniel Aprahamian"
+  },
+  "description": "A base class that can clean up its own resources",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib/**"
+  ],
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "mocha -r ts-node/register test/**/*.ts"
+  },
+  "dependencies": {
+    "@types/node": "^10.10.3"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.1.5",
+    "@types/mocha": "^5.2.5",
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.0.3"
+  }
+}
